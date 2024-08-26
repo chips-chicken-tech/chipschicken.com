@@ -1,4 +1,5 @@
 ![Chips and Chicken Logo](./assets/Chips_and_Chicken.png)
+<img src="./assets/Chips_and_Chicken.png" alt="Logo" width="100"/>
 
 # Chips and Chicken - Site Web Officiel
 
