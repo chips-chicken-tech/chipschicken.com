@@ -1,4 +1,4 @@
-![Chips and Chicken Logo](./assets/images/Logo_Chips_and_Chicken.png)
+![Chips and Chicken Logo](./assets/Chips_and_Chicken.png)
 
 # Chips and Chicken - Site Web Officiel
 
