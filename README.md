@@ -1,4 +1,4 @@
-<img src=".Chips_and_Chicken.png" alt="Logo" width="200"/>
+<img src="Chips_and_Chicken.png" alt="Logo" width="200"/>
 
 # Chips and Chicken - Site Web Officiel
 
