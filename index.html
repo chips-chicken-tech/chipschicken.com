@@ -362,7 +362,7 @@ https://templatemo.com/tm-558-klassy-cafe
                 </div>
                 <div class="col-lg-6">
                     <div class="contact-form">
-                        <form id="contact" action="send_reservation.php" method="post">
+                        <form id="contact" action="https://formspree.io/f/xqakbekw" method="post">
                           <div class="row">
                             <div class="col-lg-12">
                                 <h4>Faire Une Réservation</h4>
@@ -379,7 +379,7 @@ https://templatemo.com/tm-558-klassy-cafe
                             </div>
                             <div class="col-lg-6 col-sm-12">
                               <fieldset>
-                                <input name="phone" type="text" id="phone" placeholder="Numéro de téléphone*" required="">
+                                <input name="phone" type="text" id="phone" pattern="\d{12}" placeholder="Numéro de téléphone*" required="">
                               </fieldset>
                             </div>
                             <div class="col-md-6 col-sm-12">
@@ -398,6 +398,7 @@ https://templatemo.com/tm-558-klassy-cafe
                                     <option name="10" id="10">10</option>
                                     <option name="11" id="11">11</option>
                                     <option name="12" id="12">12</option>
+                                    <option name="12" id="12">autre (préciser dans la section commentaire)</option>
                                 </select>
                               </fieldset>
                             </div>
@@ -425,7 +426,7 @@ https://templatemo.com/tm-558-klassy-cafe
                             </div>
                             <div class="col-lg-12">
                               <fieldset>
-                                <textarea name="message" rows="6" id="message" placeholder="Laissez-nous un commentaire...." required=""></textarea>
+                                <textarea name="message" rows="6" id="message" placeholder="Laissez-nous un commentaire...." ></textarea>
                               </fieldset>
                             </div>
                             <div class="col-lg-12">
