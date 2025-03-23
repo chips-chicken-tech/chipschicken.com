@@ -50,8 +50,14 @@ https://templatemo.com/tm-558-klassy-cafe
         border-radius: 10px;
     }
 
-    .left-content h4, .left-content h6 {
-        color: white; /* Ensure headings are visible */
+    .left-content h4 {
+        font-size: 24px; /* Default font size for heading */
+        color: white;
+    }
+
+    .left-content h6 {
+        font-size: 18px; /* Default font size for subheading */
+        color: white;
     }
 
     .main-white-button a {
@@ -77,9 +83,32 @@ https://templatemo.com/tm-558-klassy-cafe
             padding: 15px;
         }
 
+        .left-content h4 {
+            font-size: 20px; /* Adjust font size for smaller screens */
+        }
+
+        .left-content h6 {
+            font-size: 16px; /* Adjust font size for smaller screens */
+        }
+
         .main-white-button a {
-            font-size: 12px; /* Adjust font size for smaller screens */
-            padding: 8px 15px;
+            font-size: 12px; /* Adjust button font size for smaller screens */
+            padding: 8px 15px; /* Adjust button padding for smaller screens */
+        }
+    }
+
+    @media (max-width: 480px) {
+        .left-content h4 {
+            font-size: 18px; /* Further reduce font size for very small screens */
+        }
+
+        .left-content h6 {
+            font-size: 14px; /* Further reduce font size for very small screens */
+        }
+
+        .main-white-button a {
+            font-size: 10px; /* Further reduce button font size */
+            padding: 6px 10px; /* Further reduce button padding */
         }
     }
 </style>
